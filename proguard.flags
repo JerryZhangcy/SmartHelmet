@@ -1,0 +1,5 @@
+
+#add for face lock
+-keep class com.cy.helmet.**{*;}
+-keep class io.netty.**{*;}
+-keep class com.czt.mp3recorder.**{*;}

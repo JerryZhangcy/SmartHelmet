@@ -1,0 +1,83 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">智能头盔</string>
+    <string name="request_send">请求对讲</string>
+    <string name="replay_receive_voice">重播语音</string>
+    <string name="manual_take_photo">手动拍照</string>
+    <string name="start_avtive">开始激活</string>
+    <string name="start_test">开始测试</string>
+    <string name="aodio_test">语音测试</string>
+    <string name="fall_test">跌落检测</string>
+    <string name="device_status">设备状态</string>
+    <string name="take_photo">请求拍照</string>
+    <string name="take_video">请求录像</string>
+    <string name="stop_video">停止录像</string>
+    <string name="send_sos">发送SOS</string>
+    <string name="force_start">启动设备</string>
+    <string name="force_sleep">休眠设备</string>
+    <string name="active_failed">设备激活失败</string>
+    <string name="active_success">设备激活成功</string>
+    <string name="res_success">设备注册成功</string>
+
+    <string name="send_sos_msg">发送 SOS 指令</string>
+    <string name="fall_test_msg">发送 跌落检测 指令</string>
+
+    <string name="sample_show_log">Show Log</string>
+    <string name="sample_hide_log">Hide Log</string>
+    <!--  BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected to <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">not connected</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="secure_connect">Connect a device - Secure</string>
+    <string name="insecure_connect">Connect a device - Insecure</string>
+    <string name="discoverable">Make discoverable</string>
+
+    <!--Bluetooth-->
+    <string name="setting_config">设置配置信息</string>
+
+    <!--video-->
+    <string name="open_camera_success">摄像头开启成功</string>
+    <string name="open_camera_fail">摄像头开启失败</string>
+    <string name="video_live">直播中...</string>
+    <string name="video_live_fail">直播失败...</string>
+    <string name="video_live_stop">直播结束...</string>
+
+    <string name="video_connected">正在录视屏...</string>
+    <string name="video_fail">录视屏失败...</string>
+    <string name="video_stop">录制结束...</string>
+
+    <!--voice-->
+    <string name="send_voice_timeout">发送语音超时...</string>
+
+
+    <!--GPS-->
+    <string name="gps_connect">手动连接</string>
+    <string name="gps_disconnect">手动断开</string>
+    <string name="gps_reconnect">中断重连</string>
+    <string name="gps_get_info">获取GPS信息</string>
+    <string name="gps_test">GPS测试</string>
+    <string name="gps_res_success">GPS注册成功</string>
+
+    <!-- foreground service -->
+    <string name="foreground_service_is_running">服务正在运行</string>
+
+    <!--for led-->
+    <string name="open_led">打开LED</string>
+    <string name="close_led">关闭LED</string>
+
+    <!--add for factory-->
+    <string name="dialer_screen">进入拨号界面</string>
+</resources>

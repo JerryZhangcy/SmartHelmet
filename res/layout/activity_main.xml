@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/request_send_voice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/request_send" />
+
+    <Button
+        android:id="@+id/replay_receive_voice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/replay_receive_voice" />
+
+    <Button
+        android:id="@+id/manual_take_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/manual_take_photo" />
+
+    <Button
+        android:id="@+id/fall_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fall_test" />
+
+    <Button
+        android:id="@+id/send_sos_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send_sos" />
+
+    <Button
+        android:id="@+id/bluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth" />
+
+    <TextView
+        android:id="@+id/video_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/live_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/force_start"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/force_start" />
+
+        <Button
+            android:id="@+id/force_sleep"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/force_sleep" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/gps_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/led_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/open_led" />
+
+        <Button
+            android:id="@+id/dialer_screen"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/dialer_screen" />
+    </LinearLayout>
+
+
+</LinearLayout>
